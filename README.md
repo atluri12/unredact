@@ -1,9 +1,9 @@
-# cs5293sp19-project2
+# Unredactor
 
-In this project the functioning of a redactor is shown. The dataset taken contains the movie reviews from IMDB. Limited number of reviews are selected for this project to consider the time taken. The program takes the movie reviews as input for training and perform extraction of entities from the training dataset. In this project only the names are redacted and the rest of the entities are ignored. The program is trained on the given dataset and then the program is used on a test data set to perform unredact and predict the entities. The project is compatible with Python 3.7.2.
+In this project the functioning of an unredactor is shown. The dataset taken contains the movie reviews from IMDB. Limited number of reviews are selected for this project to consider the time taken. The program takes the movie reviews as input for training and perform extraction of entities from the training dataset. In this project only the names are redacted and the rest of the entities are ignored. The program is trained on the given dataset and then the program is used on a test data set to perform unredact and predict the entities. The project is compatible with Python 3.7.2.
 
 ### unredact.py
-The unredact.py file is executed from the *cs5293sp19-project2* folder after cloning it into the local system using the following command
+The unredact.py file is executed from the *unredact* folder after cloning it into the local system using the following command
 
 `pipenv run python redactor/unredact.py`
 
